@@ -31,16 +31,14 @@ class DatabaseSeeder extends Seeder
             "education"=>"ETF",
         ]);
 
-        $array=explode(" ",$user->name);
-        $prezime = $array[1];
-        $ime = $array[0];
+        //$array=explode(" ",$user->name);
+        //$prezime = $array[1];
+        //$ime = $array[0];
         Post::create([
-            "name"=>$ime,
-            "text"=> $prezime,
-            "datum_objave"=>"2022-08-08",
-            //"vreme"=>"20:00",
-            //"studio"=> "Helena",
-            "profile_id"=> $k->id,
+            "name"=>"Naslov 1",
+            "text"=> "ovo je neki tekst",
+            "datum_objave"=>"2022-07-08",
+            "profile_id"=> "1",
             "user_id"=> $user->id,
         ]);
     }

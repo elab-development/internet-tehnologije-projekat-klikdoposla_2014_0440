@@ -13,15 +13,15 @@ class IzmenaTabeleProfiles extends Migration
      */
     public function up()
     {
-        // Schema::table('profiles',function (Blueprint $table){
-        //     $table->renameColumn('company','COMPANY');
-        // });
-        // Schema::table('profiles', function (Blueprint $table) {
-        //     $table->string('skills', 50)->change();
-        // });
-        // Schema::table('profiles',function (Blueprint $table){
-        //     $table->string('test');
-        // });
+     //    Schema::table('profiles',function (Blueprint $table){
+      //       $table->renameColumn('company','COMPANY');
+     //    });
+      //   Schema::table('profiles', function (Blueprint $table) {
+     //        $table->string('skills', 50)->change();
+      //   });
+      //   Schema::table('profiles',function (Blueprint $table){
+      //       $table->string('test');
+      //   });
     }
 
     /**

@@ -17,15 +17,13 @@ class PostSeeder extends Seeder
     {
         // Post::truncate();
         $user = User::factory()->create();
-        $array=explode(" ",$user->name);
-        $prezime = $array[1];
-        $ime = $array[0];
+        //$array=explode(" ",$user->name);
+        //$prezime = $array[1];
+        //$ime = $array[0];
         Post::create([
-            "name"=>$ime,
-            "text"=> $prezime,
+            "name"=>"Naslov 1",
+            "text"=> "ovo je neki tekst",
             "datum_objave"=>"2022-07-07",
-            //"vreme"=>"14:00",
-            //"studio"=> "Vanity",
             "profile_id"=> "2",
             "user_id"=> $user->id,
         ]);

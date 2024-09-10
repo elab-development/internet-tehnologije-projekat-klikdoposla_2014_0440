@@ -18,8 +18,6 @@ class CreatePostsTable extends Migration
             $table->string('name');
             $table->string('text');
             $table->date('datum_objave');
-            //$table->time('vreme');
-            //$table->string('studio');
             $table->foreignId('profile_id');
             $table->foreignId('user_id');
             $table->timestamps();

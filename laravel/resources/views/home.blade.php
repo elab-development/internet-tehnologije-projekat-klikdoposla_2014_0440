@@ -26,7 +26,7 @@
                         </div>
                     @endif
                     <a href="post" class="btn btn-primary">Objave</a>
-                    <p> {{ __('You are logged in!') }} </p>
+                    <!-- <p> {{ __('You are logged in!') }} </p> -->
 
                 </div>
             </div>
